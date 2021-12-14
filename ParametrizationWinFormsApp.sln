@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParametrizationWinFormsApp", "ParametrizationWinFormsApp\ParametrizationWinFormsApp.csproj", "{DED5ABAB-6387-410E-A987-6A850C4FB793}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parametrization.Core", "Parametrization.DLL\Parametrization.Core.csproj", "{3DF24EA2-9D49-401C-8FC0-D5DAE3AB28BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{F5C258AE-03C7-4B2C-86CD-F484A77BAF86}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\Scripts - Parametrization.sql = Scripts\Scripts - Parametrization.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DED5ABAB-6387-410E-A987-6A850C4FB793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED5ABAB-6387-410E-A987-6A850C4FB793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DED5ABAB-6387-410E-A987-6A850C4FB793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DED5ABAB-6387-410E-A987-6A850C4FB793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DF24EA2-9D49-401C-8FC0-D5DAE3AB28BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DF24EA2-9D49-401C-8FC0-D5DAE3AB28BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DF24EA2-9D49-401C-8FC0-D5DAE3AB28BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DF24EA2-9D49-401C-8FC0-D5DAE3AB28BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC69471E-4F0C-430B-95EC-571FD56E9CB4}
+	EndGlobalSection
+EndGlobal
