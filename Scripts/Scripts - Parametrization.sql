@@ -7,3 +7,17 @@
 	MinutesBeforeIntegration INT
 ); 
 
+INSERT INTO [dbo].[Parametrization]
+           ([Username]
+           ,[Password]
+           ,[Email]
+           ,[InputPath]
+           ,[OutputPath]
+           ,[MinutesBeforeIntegration])
+     VALUES
+           ('Admin',
+		   '123',
+           'admin@gmail.com',
+           '/home/admin/input-path/',
+           '/home/admin/output-path/',
+           30); 

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Parametrization.Core.Models
+namespace ParametrizationApp.Core.Models
 {
     public class Parametrization
     {
