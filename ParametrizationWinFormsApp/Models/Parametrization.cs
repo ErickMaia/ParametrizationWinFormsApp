@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ParametrizationApp.DLL.Models
+namespace ParametrizationApp.WinForms.Models
 {
     public class Parametrization
     {
+        private Parametrization parametrization;
+
         public Parametrization(string username, string password, string email, string inputPath, string outputPath, int minutesBeforeIntegration)
         {
             Username = username;
@@ -26,6 +28,11 @@ namespace ParametrizationApp.DLL.Models
             InputPath = "";
             OutputPath = "";
             MinutesBeforeIntegration = 30;
+        }
+
+        public Parametrization(Parametrization parametrization)
+        {
+            this.parametrization = parametrization;
         }
 
         public string Username { get; set; }

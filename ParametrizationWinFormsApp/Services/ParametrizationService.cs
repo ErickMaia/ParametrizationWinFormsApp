@@ -1,19 +1,20 @@
 ﻿using FluentValidation.Results;
-using ParametrizationApp.DLL.Models;
-using ParametrizationApp.DLL.Repositories;
-using ParametrizationApp.DLL.Validators;
+using ParametrizationApp.WinForms.Repositories;
+using ParametrizationApp.WinForms.Validators;
+using ParametrizationApp.WinForms.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using FluentValidation;
 
-namespace ParametrizationApp.DLL.Services
+namespace ParametrizationApp.WinForms.Services
 {
     public class ParametrizationService
     {
 
-        public Parametrization? ReadParametrization()
+        public Parametrization ReadParametrization()
         {
             ParametrizationRepository repository = new ParametrizationRepository(); 
             return repository.ReadParametrization();

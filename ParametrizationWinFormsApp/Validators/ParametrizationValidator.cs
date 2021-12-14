@@ -1,12 +1,12 @@
 ﻿using FluentValidation;
-using ParametrizationApp.DLL.Models; 
+using ParametrizationApp.WinForms.Models; 
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ParametrizationApp.DLL.Validators
+namespace ParametrizationApp.WinForms.Validators
 {
     public class ParametrizationValidator : AbstractValidator<Parametrization>
     {

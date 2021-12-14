@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ParametrizationApp.InfraSqlServer.Repositories
 {
-    internal class ParametrizationRepository
+    public class ParametrizationRepository
     {
+        public Parametrization ReadParametrization()
+        {
+
+        }
     }
 }
